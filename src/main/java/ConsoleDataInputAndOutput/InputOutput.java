@@ -9,7 +9,13 @@ public class InputOutput {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        System.out.println("Hi " + name);
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        System.out.print("Enter your height: ");
+        double height = scanner.nextDouble();
+
+        System.out.println("Name: " + name + "\nAge: " + age + "\nHeight: " + height);
 
         scanner.close();
     }
