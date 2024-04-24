@@ -1,4 +1,4 @@
-package ConsoleDataInputAndOutput;
+package consoledata;
 
 import java.util.Scanner;
 
