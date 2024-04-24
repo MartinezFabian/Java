@@ -1,4 +1,4 @@
-package org.example.helloworld;
+package Variables;
 
 public class Variables {
     public static void main(String[] args) {
@@ -12,4 +12,3 @@ public class Variables {
                 + "\nExpected Salary: " + expectedSalary + "\nProgrammer: " + programmer);
     }
 }
-    
