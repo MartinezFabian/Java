@@ -41,4 +41,15 @@ public class Date {
     public String toString() {
         return day + "/" + month + "/" + year;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        Date otherDate = (Date) obj;
+
+        return this.day == otherDate.day && this.month == otherDate.month && this.year == otherDate.year;
+    }
 }
