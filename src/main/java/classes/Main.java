@@ -9,6 +9,6 @@ public class Main {
         date.setMonth(4);
         date.setYear(2024);
 
-        System.out.println(date.getDay() + "/" + date.getMonth() + "/" + date.getYear());
+        System.out.println(date);
     }
 }

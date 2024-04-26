@@ -28,4 +28,10 @@ public class Date {
     public void setYear(int year) {
         this.year = year;
     }
+
+    // Sobrescribir el método toString heredado de Object
+    @Override
+    public String toString() {
+        return day + "/" + month + "/" + year;
+    }
 }
