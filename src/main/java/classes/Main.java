@@ -20,5 +20,11 @@ public class Main {
         } else {
             System.out.println("Las fechas son diferentes");
         }
+
+        DateDetailed dateDetailed1 = new DateDetailed(27, 4, 2024);
+        System.out.println(dateDetailed1);
+
+        DateDetailed dateDetailed2 = new DateDetailed("27/04/2024");
+        System.out.println(dateDetailed2);
     }
 }
