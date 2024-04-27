@@ -12,6 +12,19 @@ public class Date {
         this.year = year;
     }
 
+    // Sobrecargar el constructor, constructor sin parametros
+    public Date() {}
+
+    //Sobrecargar el constructor, constructor con Fecha en formato String "dd/mm/yyyy"
+    public Date(String date) {
+        String[] partsOfDate = date.split("/");
+
+        this.day = Integer.parseInt(partsOfDate[0]);
+        this.month = Integer.parseInt(partsOfDate[1]);
+        this.year = Integer.parseInt(partsOfDate[2]);
+    }
+
+
     public int getDay() {
         return day;
     }
