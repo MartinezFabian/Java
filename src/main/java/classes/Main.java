@@ -26,5 +26,8 @@ public class Main {
 
         DateDetailed dateDetailed2 = new DateDetailed("27/04/2024");
         System.out.println(dateDetailed2);
+
+        DateTime dateTime = new DateTime("27/04/2024", 21, 15, 11);
+        System.out.println(dateTime);
     }
 }

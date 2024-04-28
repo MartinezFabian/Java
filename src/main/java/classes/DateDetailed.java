@@ -11,6 +11,10 @@ public class DateDetailed extends Date {
         super(date);
     }
 
+    public DateDetailed() {
+        super();
+    }
+
     @Override
     public String toString() {
         return getDay() + " de " + moths[getMonth() - 1] + " del " + getYear();
